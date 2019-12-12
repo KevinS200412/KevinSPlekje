@@ -1,14 +1,26 @@
-/* Basislayout */
+@font-face {
+    font-family: sansserif;
+    src: url(fonts/SansSerifBldFLF-Italic.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    }
 
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
-    
+    background-color: #EEEEEE;
     color: #303030;
-    font: Verdana, Arial, Sans-Serif;
 }
 
+#bodyshop {
+    background: url(afbeeldingen/ronaldoactietransp.jpg);
+    background-repeat:    no-repeat;
+    background-size: auto;
+}
 
 main {
     margin: 0 auto;
@@ -23,7 +35,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color: rgb(250, 38, 0);
     text-align: center;
 }
 
@@ -33,12 +45,32 @@ footer {
     padding-bottom: 10px;
 }
 
+.sportingtekst {
+    margin-bottom: 32px;
+}
 
-/* specifieke stijlen */
+.manchestertekst {
+    margin-bottom: 32px;
+}
+
+#tussenkopjescarriere {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.inleiding {
+    font: sans-serif;
+    margin-bottom: 6px;
+}
 
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+}
+
+img.zweefRechts {
+    float: right;
+    margin-left: 15px;
 }
 
 .smalltext {
@@ -54,35 +86,89 @@ a:hover {
     text-decoration: underline;
 }
 
+.algemeentekst3 {
+    margin-bottom: 6px;
+}
 
-/* navigatiebalk */
-nav ul {
+#hoofdtitel {
+    margin-top: 6px;
+}
+
+/* navigatiebalk nav ul {
     list-style-type: none;
     margin: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
     padding: 0;
     background-color: #dddddd;
     overflow: hidden;
-}
-
-nav ul li {
-    float: left;
 }
 
 nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    width: 140px;
+    padding: 14px 0;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: limegreen;
 }
 
 nav li a.active {
     background-color: skyblue;
 }
+*/
+
+div.navigatiebalktop ul {
+    list-style-type: none;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 0;
+    background-color: #dddddd;
+    overflow: hidden;
+}
+
+
+div.navigatiebalktop ul li {
+    float: left;
+}
+
+div.navigatiebalktop li a {
+    display: block;
+    color: white;
+    text-align: center;
+    width: 140px;
+    padding: 14px 0;
+    text-decoration: none;
+}
+
+
+div.navigatiebalktop li a:hover{
+    background-color: limegreen;
+}
+
+div.navigatiebalktop li a.active{
+    background-color: skyblue;
+}
+}
+
+div.navigatiebalktop
+
+div.navigatiebalktop
+
+
+div.verticalMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
 
 
 
