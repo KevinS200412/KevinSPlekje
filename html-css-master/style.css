@@ -57,6 +57,35 @@ footer {
     margin-bottom: 32px;
 }
 
+.koppenconcurrenten {
+    color: rgb(10, 30, 130);
+    margin-bottom: 4px;
+}
+
+.nationaleconcurtekst {
+
+}
+
+.internationaleconcurtekst {
+    margin-bottom: 16px;
+}
+
+.toelichtingenfotos {
+    float: right;
+    font-size: 12px;
+}
+
+.headerLinksConc {
+    float: left;
+    margin-left: 144px;
+    
+}
+
+.headerRechtsConc {
+    float: right;
+    margin-right: 144px;
+}
+
 #tussenkopjescarriere {
     text-align: center;
     margin-bottom: 10px;
