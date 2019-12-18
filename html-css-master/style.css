@@ -53,6 +53,10 @@ footer {
     margin-bottom: 32px;
 }
 
+.realmadridtekst {
+    margin-bottom: 32px;
+}
+
 #tussenkopjescarriere {
     text-align: center;
     margin-bottom: 10px;
@@ -94,33 +98,7 @@ a:hover {
     margin-top: 6px;
 }
 
-/* navigatiebalk nav ul {
-    list-style-type: none;
-    margin: auto;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    padding: 0;
-    background-color: #dddddd;
-    overflow: hidden;
-}
-
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    width: 140px;
-    padding: 14px 0;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    background-color: limegreen;
-}
-
-nav li a.active {
-    background-color: skyblue;
-}
-*/
+/* Navigatiebalken */
 
 div.navigatiebalktop ul {
     list-style-type: none;
@@ -128,10 +106,10 @@ div.navigatiebalktop ul {
     margin-top: 6px;
     margin-bottom: 6px;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #d6cece;
     overflow: hidden;
+    font-size: 18px;
 }
-
 
 div.navigatiebalktop ul li {
     float: left;
@@ -146,7 +124,6 @@ div.navigatiebalktop li a {
     text-decoration: none;
 }
 
-
 div.navigatiebalktop li a:hover{
     background-color: limegreen;
 }
@@ -154,22 +131,36 @@ div.navigatiebalktop li a:hover{
 div.navigatiebalktop li a.active{
     background-color: skyblue;
 }
-}
-
-div.navigatiebalktop
-
-div.navigatiebalktop
 
 
-div.verticalMenu ul {
+div.verticalmenushop ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100px;
     background-color: #f1f1f1;
+    border: 1px solid black;
+    line-height: 50x;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
 }
 
+div.verticalmenushop li a {
+    display: block;
+    color: ##4f66d2;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
 
+div.verticalmenushop{
 
+}
 
+div.verticalmenushop
 
+div.verticalmenushop
