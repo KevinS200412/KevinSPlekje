@@ -6,7 +6,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    border: border-box;
+    box-sizing: border-box;
     }
 
 html, body {
@@ -45,6 +45,10 @@ footer {
     padding-bottom: 10px;
 }
 
+#footeralgemeen {
+    margin-top: 10px;
+}
+
 .sportingtekst {
     margin-bottom: 32px;
 }
@@ -57,33 +61,70 @@ footer {
     margin-bottom: 32px;
 }
 
-.koppenconcurrenten {
+.headernatconcur {
+    font-family: serif;
     color: rgb(10, 30, 130);
     margin-bottom: 4px;
 }
 
-.nationaleconcurtekst {
-
+.headerinterconcur {
+    font-family: serif;
+    color: rgb(10, 30, 130);
+    margin-top: 28px;
+    margin-bottom: 4px;
 }
 
-.internationaleconcurtekst {
-    margin-bottom: 16px;
+.headercompconcur {
+    font-family: serif;
+    color: rgb(10, 30, 130);
+    margin-top: 80px;
+    margin-bottom: 4px;
 }
 
 .toelichtingenfotos {
     float: right;
     font-size: 12px;
+    margin-right: 46px;
 }
 
-.headerLinksConc {
-    float: left;
-    margin-left: 144px;
-    
+.headerMessi {
+    font-family: sans-serif, serif;
+    margin-top: 16px;
+    margin-bottom: 4px;
 }
 
-.headerRechtsConc {
-    float: right;
-    margin-right: 144px;
+.headerNeymar {
+    font-family: sans-serif, serif;
+    margin-top: 88px;
+    margin-bottom: 4px;
+}
+
+.headerGriezzman {
+    font-family: sans-serif, serif;
+    margin-top: 108px;
+    margin-bottom: 4px;
+}
+
+.headerVanDijk {
+    font-family: sans-serif, serif;
+    margin-top: 106px;
+    margin-bottom: 4px;
+}
+
+.lijstjeImmobile {
+    margin-top: 4px;
+    margin-left: 12px;
+}
+
+.lijstjesprijzen {
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+
+#footerconcur {
+    margin-top: 10px;
 }
 
 #tussenkopjescarriere {
@@ -92,7 +133,6 @@ footer {
 }
 
 .inleiding {
-    font: sans-serif;
     margin-bottom: 6px;
 }
 
@@ -127,6 +167,13 @@ a:hover {
     margin-top: 6px;
 }
 
+.koppenprijzen {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(6, 68, 184);
+    font-family: sans-serif, serif;
+}
+
 /* Navigatiebalken */
 
 div.navigatiebalktop ul {
@@ -142,6 +189,7 @@ div.navigatiebalktop ul {
 
 div.navigatiebalktop ul li {
     float: left;
+    font: sans-serif;
 }
 
 div.navigatiebalktop li a {
