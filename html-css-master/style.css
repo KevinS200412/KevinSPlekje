@@ -117,11 +117,15 @@ footer {
 }
 
 .lijstjesprijzen {
-    margin-top: 8px;
+    margin-top: 12px;
+    margin-bottom: 16px;
     margin-left: 20px;
     font-size: 18px;
 }
 
+.plaatjesprijzen {
+    border: 1px solid rgb(0, 0, 66);
+}
 
 #footerconcur {
     margin-top: 10px;
