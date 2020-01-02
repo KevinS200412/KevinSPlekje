@@ -117,10 +117,11 @@ footer {
 }
 
 .lijstjesprijzen {
-    margin-top: 12px;
+    margin-top: 6px;
     margin-bottom: 16px;
-    margin-left: 20px;
-    font-size: 18px;
+    margin-left: 14px;
+    font-size: 16px;
+    font-family: sans-serif, serif;
 }
 
 .plaatjesprijzen {
@@ -173,7 +174,7 @@ a:hover {
 
 .koppenprijzen {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: rgb(6, 68, 184);
     font-family: sans-serif, serif;
 }
@@ -222,20 +223,20 @@ div.verticalmenushop ul {
     width: 100px;
     background-color: #f1f1f1;
     border: 1px solid black;
-    line-height: 50x;
-    text-align: center;
+    text-align: left;
     color: #000;
-    font-size: 18px;
 }
 
 div.verticalmenushop li a {
     display: block;
-    color: ##4f66d2;
+    color: #5f74cf;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-decoration: none;
+    font-family: sans-serif, serif;
+    font-size: 14px;
 }
 
 div.verticalmenushop{
