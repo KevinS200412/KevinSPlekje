@@ -1,25 +1,22 @@
-@font-face {
-    font-family: sansserif;
-    src: url(fonts/SansSerifBldFLF-Italic.otf);
+/* Hele pagina CSS */
+
+header {
+    margin-top: 6px;
+    color: rgb(250, 38, 0);
+    text-align: center;
+    font-family: sans-serif, serif;
 }
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    }
+}
 
 html, body {
-    height: 100%;
     padding: 0;
     background-color: #EEEEEE;
     color: #303030;
-}
-
-#bodyshop {
-    background: url(afbeeldingen/ronaldoactietransp.jpg);
-    background-repeat:    no-repeat;
-    background-size: auto;
 }
 
 main {
@@ -28,43 +25,84 @@ main {
     position: relative;
 }
 
-
 article {
     text-align: justify;
 }
 
-
-header {
-    color: rgb(250, 38, 0);
-    text-align: center;
+img.zweefLinks {
+    float: left;
+    margin-right: 15px;
 }
 
+img.zweefRechts {
+    float: right;
+    margin-left: 15px;
+}
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 footer {
     text-align: center;
     padding-bottom: 10px;
 }
 
-#footeralgemeen {
+/* Algemeen CSS */
+
+.inleiding {
+    margin-bottom: 6px;
+}
+
+/* Carriëre CSS */
+
+.tekstcarriere {
+    margin-bottom: 32px;
+}
+
+#tussenkopjescarriere {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Prijzen CSS */
+
+.lijstjesprijzen {
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 14px;
+    font-size: 16px;
+    font-family: sans-serif, serif;
+}
+
+.plaatjesprijzen {
+    border: 1px solid rgb(0, 0, 66);
+}
+
+.koppenprijzen {
     margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(6, 68, 184);
+    font-family: sans-serif, serif;
+    text-shadow: 1px 1px brown;
 }
 
-.sportingtekst {
-    margin-bottom: 32px;
-}
-
-.manchestertekst {
-    margin-bottom: 32px;
-}
-
-.realmadridtekst {
-    margin-bottom: 32px;
-}
+/* Concurrenten CSS */
 
 .headernatconcur {
     font-family: serif;
     color: rgb(10, 30, 130);
     margin-bottom: 4px;
+    text-shadow: 1px 1px brown;
 }
 
 .headerinterconcur {
@@ -72,6 +110,7 @@ footer {
     color: rgb(10, 30, 130);
     margin-top: 28px;
     margin-bottom: 4px;
+    text-shadow: 1px 1px brown;
 }
 
 .headercompconcur {
@@ -79,9 +118,10 @@ footer {
     color: rgb(10, 30, 130);
     margin-top: 80px;
     margin-bottom: 4px;
+    text-shadow: 1px 1px brown;
 }
 
-.toelichtingenfotos {
+.toelichtingenfotosconcur {
     float: right;
     font-size: 12px;
     margin-right: 46px;
@@ -116,67 +156,78 @@ footer {
     margin-left: 12px;
 }
 
-.lijstjesprijzen {
-    margin-top: 6px;
-    margin-bottom: 16px;
-    margin-left: 14px;
-    font-size: 16px;
-    font-family: sans-serif, serif;
-}
-
-.plaatjesprijzen {
-    border: 1px solid rgb(0, 0, 66);
-}
-
 #footerconcur {
     margin-top: 10px;
 }
 
-#tussenkopjescarriere {
-    text-align: center;
-    margin-bottom: 10px;
+/* Shop CSS */
+
+#bodyshop {
+    background: url(afbeeldingen/ronaldoactietransp.jpg);
+    background-repeat:    no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
 }
 
-.inleiding {
-    margin-bottom: 6px;
+.shopartikel {
+    margin: 40px 0px;
+    clear: both;
+    overflow: hidden;
 }
 
-img.zweefLinks {
+.plaatjesshoplinks {
     float: left;
-    margin-right: 15px;
+    margin-left: 58px;
+    border: 1px solid darkblue;
 }
 
-img.zweefRechts {
-    float: right;
-    margin-left: 15px;
+.koppenartikelen {
+    margin-left: 38px;
 }
 
-.smalltext {
-    font-size: 0.7em;
+.tekstshop {
+    float: left;
+    font-family: sans-serif, serif;
+    font-size: 14px;
+    margin-left: 6px;
+    width: 580px;
 }
 
-a {
-    color: skyblue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.algemeentekst3 {
+.kopshirtjuventus {
+    margin-top: 10px;
+    margin-left: 40px;
     margin-bottom: 6px;
 }
 
-#hoofdtitel {
-    margin-top: 6px;
+.kopshirtjuventus {
+    margin-left: 40px;
+    margin-bottom: 6px;
 }
 
-.koppenprijzen {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: rgb(6, 68, 184);
+.shopkopen {
     font-family: sans-serif, serif;
+    margin-left: 320px;
+    margin-right: 314px;
+    padding: 10px;
+    background-color: limegreen
+}
+
+.shopkopshirts {
+    text-align: center;
+    font-family: sans-serif, serif;
+    color: rgb(0, 0, 100);
+    margin-top: 180px;
+}
+
+.shopkopbroeken {
+    text-align: center;
+    font-family: sans-serif, serif;
+    color: rgb(0, 0, 100);
+    margin-top: 40px;
+}
+
+.footershop {
+    margin-top: 20px;
 }
 
 /* Navigatiebalken */
@@ -214,13 +265,12 @@ div.navigatiebalktop li a.active{
     background-color: skyblue;
 }
 
-
 div.verticalmenushop ul {
+    float: left;
     list-style-type: none;
-    margin: 0;
     padding-top: 8px;
     padding-bottom: 8px;
-    width: 100px;
+    width: 16%;
     background-color: #f1f1f1;
     border: 1px solid black;
     text-align: left;
@@ -230,19 +280,15 @@ div.verticalmenushop ul {
 div.verticalmenushop li a {
     display: block;
     color: #5f74cf;
-    padding-left: 20px;
+    padding-left: 12px;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-decoration: none;
     font-family: sans-serif, serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
-div.verticalmenushop{
-
+div.verticalmenushop li a:hover {
+    background-color: lightblue;
 }
-
-div.verticalmenushop
-
-div.verticalmenushop
