@@ -178,11 +178,13 @@ footer {
 .plaatjesshoplinks {
     float: left;
     margin-left: 58px;
+    margin-bottom: 20px;
     border: 1px solid darkblue;
 }
 
 .koppenartikelen {
     margin-left: 38px;
+    margin-bottom: 4px;
 }
 
 .tekstshop {
@@ -216,14 +218,14 @@ footer {
     text-align: center;
     font-family: sans-serif, serif;
     color: rgb(0, 0, 100);
-    margin-top: 180px;
+    margin-top: 200px;
 }
 
-.shopkopbroeken {
+.shopkoppen {
     text-align: center;
     font-family: sans-serif, serif;
     color: rgb(0, 0, 100);
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .footershop {
