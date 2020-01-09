@@ -175,6 +175,10 @@ footer {
     overflow: hidden;
 }
 
+.shopkopen a {
+    color: brown;
+}
+
 .plaatjesshoplinks {
     float: left;
     margin-left: 58px;
@@ -211,7 +215,7 @@ footer {
     margin-left: 320px;
     margin-right: 314px;
     padding: 10px;
-    background-color: limegreen
+    background-color: limegreen;
 }
 
 .shopkopshirts {
