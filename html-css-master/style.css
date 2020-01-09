@@ -74,6 +74,9 @@ footer {
 #tussenkopjescarriere {
     text-align: center;
     margin-bottom: 10px;
+    font-family: sans-serif, serif;
+    font-size: 20px;
+    color: rgb(0, 0, 100);
 }
 
 /* Prijzen CSS */
