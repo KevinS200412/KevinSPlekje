@@ -275,6 +275,7 @@ div.navigatiebalktop li a:hover{
 
 div.navigatiebalktop li a.active{
     background-color: skyblue;
+    border-radius: 10px;
 }
 
 div.verticalmenushop ul {
@@ -287,6 +288,7 @@ div.verticalmenushop ul {
     border: 1px solid black;
     text-align: left;
     color: #000;
+    border-radius: 8px;
 }
 
 div.verticalmenushop li a {
@@ -305,5 +307,4 @@ div.verticalmenushop li a:hover {
     background-color: lightblue;
     border: 1px solid black;
     border-radius: 10px;
-}
 }
