@@ -32,11 +32,13 @@ article {
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+    border-radius: 10px;
 }
 
 img.zweefRechts {
     float: right;
     margin-left: 15px;
+    border-radius: 10px;
 }
 
 .smalltext {
@@ -86,6 +88,7 @@ footer {
 
 .plaatjesprijzen {
     border: 1px solid rgb(0, 0, 66);
+    border-radius: 10px;
 }
 
 .koppenprijzen {
@@ -184,6 +187,7 @@ footer {
     margin-left: 58px;
     margin-bottom: 20px;
     border: 1px solid darkblue;
+    border-radius: 10px;
 }
 
 .koppenartikelen {
@@ -247,6 +251,7 @@ div.navigatiebalktop ul {
     background-color: #d6cece;
     overflow: hidden;
     font-size: 18px;
+    border-radius: 20px;
 }
 
 div.navigatiebalktop ul li {
@@ -265,6 +270,7 @@ div.navigatiebalktop li a {
 
 div.navigatiebalktop li a:hover{
     background-color: limegreen;
+    border-radius: 10px;
 }
 
 div.navigatiebalktop li a.active{
@@ -297,4 +303,7 @@ div.verticalmenushop li a {
 
 div.verticalmenushop li a:hover {
     background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 10px;
+}
 }
